@@ -1,0 +1,67 @@
+  body {
+    display: flex;
+    height: 100%;
+  }
+  
+  .panels {
+    margin: auto;
+    max-width: 32rem;
+    width: 90%;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #848694;
+    line-height: 2.2rem;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid #B19AFE;
+  }
+
+  .form {
+    overflow: hidden;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    background-color: white;
+  }
+
+  .credentials {
+    padding: 5px;
+  }
+
+  .flutter-heading {
+    font-size: 1.7rem;
+    font-weight: lighter;
+  }
+
+  .sub-heading {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: #848694;
+    font-weight: lighter;
+  }
+
+  .panel-buttons {
+    display: block;
+    max-width: 10rem;
+    margin-top: 4rem;
+    padding: 0.5rem 3rem;
+    background-color: #00d4ff;
+    color: white;
+    border-radius: 1rem;
+  }
+
+  .panel-links {
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+  }
+
+  .links {
+    float: right;
+    text-align: center;
+  }
